@@ -1,0 +1,74 @@
+/* Angular/material css tweaks */
+
+.mat-toolbar.mat-primary {
+  background: crimson;
+}
+
+.mat-progress-spinner circle, .mat-spinner circle {
+  stroke: crimson;
+}
+
+.mat-chip.mat-standard-chip{
+  background-color: crimson;
+  color: #fff;
+}
+
+.snackbar-green {
+  background: #72c158;
+}
+.snackbar-orange {
+  background: #c17824;
+}
+
+.snackbar-red {
+  background: rgb(193, 40, 25);
+}
+.mat-simple-snackbar-action {
+  color: white;
+}
+
+
+
+.kbr-sidebar-container {
+  margin-top: 64px !important; /* make sidebar fullscreen, and this will still show the navbar */
+}
+
+.kbr-sidebar-navigator {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+}
+
+.kbr-sidebar-content {
+  display: flex;
+  height: 100%;
+  vertical-align: middle;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.numberCircle {
+  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+  padding: 2px;
+  background: crimson;
+  color: #ffffff;
+  text-align: center;
+  font-family: Roboto,"Helvetica Neue",sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.mat-expansion-panel-header-description {
+  justify-content: space-between;
+}
+
+.kbr-toolbar {
+  background: crimson;
+  color: fff;
+}
+
+.mat-expansion-panel-900px {
+  width: 900px;
+}

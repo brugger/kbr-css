@@ -1,0 +1,111 @@
+@import url('kbr-mat.css');
+
+
+.kbr-container {
+  display: flex; /* or inline-flex */
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: aqua;
+  flex-direction: row;
+/*  box-sizing: content-box; */
+}
+
+.kbr-order-1 {
+  order: 1;
+}
+
+.kbr-order-2 {
+  order: 2;
+}
+
+.kbr-order-3 {
+  order: 3;
+}
+
+.kbr-order-4 {
+  order: 4;
+}
+
+.kbr-order-5 {
+  order: 5;
+}
+
+
+.kbr-center {
+  justify-content: center;
+}
+
+
+.kbr-padding {
+  padding: 15px;
+}
+
+.kbr-flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.kbr-flex-column-wrap {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.kbr-flex-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.kbr-flex-row-wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.kbr-flex-fill {
+  flex: 1 1 auto;
+}
+
+.kbr-flex-item {
+}
+
+.kbr-center-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.kbr-center-vertically {
+  display: flex;
+  align-items: center;
+}
+
+.kbr-center-horisontally {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.kbr-right {
+  justify-content: flex-end;
+}
+
+.kbr-row-highlight:hover {
+  background: #efefef;
+}
+
+
+.flexExpand {
+  flex: 1 1 auto;
+}
+
+
+ul.no-bullets {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
