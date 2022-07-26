@@ -7,15 +7,145 @@
 </head>
 <body>
 
-<h2>kbr-container</h2>
+<h2>kbr-container (kbr-left)</h2>
 
-<div class="container-500 kbr-container kbr-center-center " >
-    <div class="box-100 kbr-center-center"> 1 </div>
-
+<div class="container-purple kbr-container " >
+    <div class="box-100 kbr-center-center "> 1 </div>
     <div class="box-100 kbr-flex-item-order-2 kbr-center-center"> 2 </div>
+    <div class="box-100 kbr-center-center kbr-padding"> 3 +kbr-padding </div>
+</div>
 
+<h2>kbr-container+kbr-center</h2>
+
+<div class="container-purple kbr-container kbr-center" >
+    <div class="box-100 kbr-center-center "> 1 </div>
+    <div class="box-100 kbr-flex-item-order-2 kbr-center-center"> 2 </div>
     <div class="box-100 kbr-center-center"> 3 </div>
+</div>
 
+<h2>kbr-container+kbr-right</h2>
+
+<div class="container-purple kbr-container kbr-right" >
+    <div class="box-100 kbr-center-center "> 1 </div>
+    <div class="box-100 kbr-flex-item-order-2 kbr-center-center"> 2 </div>
+    <div class="box-100 kbr-center-center"> 3 </div>
+</div>
+
+
+<h2>kbr-container+ kbr-flex-expand + item</h2>
+
+<div class="container-purple kbr-container " >
+    <div class="box-100 kbr-center-center "> 1 </div>
+    <div class="box-100 kbr-flex-item-order-2 kbr-center-center"> 2 </div>
+    <div class="kbr-flex-expand"></div>
+    <div class="box-100 kbr-center-center"> 3 </div>
+</div>
+
+<div class="container-purple kbr-container " >
+    <div class="box-100 kbr-center-center "> 1 </div>
+    <div class="box-100 kbr-flex-item-order-2 kbr-center-center"> 2 </div>
+    <div class="kbr-flex-expand box-100 kbr-center-center">Expanded!</div>
+    <div class="box-100 kbr-center-center"> 3 </div>
+</div>
+
+
+<h2>kbr-container+kbr-row</h2>
+Note: compresses items to fit!
+<div class="container-purple kbr-container" >
+    <div class="box-100 kbr-center-center " style="width:90px"> 1 </div>
+    <div class="box-100 kbr-flex-item-order-2 kbr-center-center"> 2 </div>
+    <div class="box-100 kbr-center-center" style="width:90px"> 3 </div>
+    <div class="box-100 kbr-center-center" style="width:90px"> 3 </div>
+    <div class="box-100 kbr-center-center"> 3 </div>
+    <div class="box-100 kbr-center-center" style="width:90px"> 3 </div>
+    <div class="box-100 kbr-center-center"> 3 </div>
+    <div class="box-100 kbr-center-center"> 3 </div>
+</div>
+
+
+<h2>kbr-container+kbr-row-wrap</h2>
+Note: spills to next line, but keeps size
+<div class="container-purple kbr-container kbr-row-wrap" >
+    <div class="box-100 kbr-center-center " style="width:90px"> 1 </div>
+    <div class="box-100 kbr-flex-item-order-2 kbr-center-center"> 2 </div>
+    <div class="box-100 kbr-center-center" style="width:90px"> 3 </div>
+    <div class="box-100 kbr-center-center" style="width:90px"> 3 </div>
+    <div class="box-100 kbr-center-center"> 3 </div>
+    <div class="box-100 kbr-center-center" style="width:90px"> 3 </div>
+    <div class="box-100 kbr-center-center"> 3 </div>
+    <div class="box-100 kbr-center-center"> 3 </div>
+</div>
+
+
+<h2>kbr-container+kbr-flex-column</h2>
+
+<div class="container-purple kbr-container kbr-flex-column" >
+    <div class="box-100 kbr-center-center "> 1 </div>
+    <div class="box-100 kbr-flex-item-order-2 kbr-center-center"> 2 </div>
+    <div class="box-100 kbr-center-center"> 3 </div>
+</div>
+
+
+<h2>kbr-container+kbr-align-start</h2>
+
+<div class="container-purple kbr-container kbr-align-start" style="height: 70px;" >
+    <div class="box-100 kbr-center-center "> 1 </div>
+    <div class="box-100 kbr-flex-item-order-2 kbr-center-center"> 2 </div>
+    <div class="box-100 kbr-center-center"> 3 </div>
+</div>
+
+
+<h2>kbr-container+kbr-align-end</h2>
+
+<div class="container-purple kbr-container kbr-align-end" style="height: 70px;" >
+    <div class="box-100 kbr-center-center "> 1 </div>
+    <div class="box-100 kbr-flex-item-order-2 kbr-center-center"> 2 </div>
+    <div class="box-100 kbr-center-center"> 3 </div>
+</div>
+
+<h2>kbr-container+kbr-align-stretch</h2>
+<p>Note: Item.height will overrule kbr-align-stretch!</p>
+
+<div class="container-purple kbr-container kbr-align-stretch" style="height: 70px;" >
+    <div class="box-100 kbr-center-center " style="height: auto;"> 1 </div>
+    <div class="box-100 kbr-flex-item-order-2 kbr-center-center"> 2 </div>
+    <div class="box-100 kbr-center-center" style="height: auto;"> 3 </div>
+</div>
+
+<h2>kbr-container+kbr-align-center</h2>
+
+<div class="container-purple kbr-container kbr-align-center" style="height: 70px;" >
+    <div class="box-100 kbr-center-center "> 1 </div>
+    <div class="box-100 kbr-flex-item-order-2 kbr-center-center"> 2 </div>
+    <div class="box-100 kbr-center-center"> 3 </div>
+</div>
+
+
+
+<HR>
+
+<h2>kbr-container+kbr-space-between</h2>
+
+<div class="container-purple kbr-container kbr-space-between" >
+    <div class="box-100 kbr-center-center "> 1 </div>
+    <div class="box-100 kbr-flex-item-order-2 kbr-center-center"> 2 </div>
+    <div class="box-100 kbr-center-center"> 3 </div>
+</div>
+
+<h2>kbr-container+kbr-space-evenly</h2>
+
+<div class="container-purple kbr-container kbr-space-evenly" >
+    <div class="box-100 kbr-center-center "> 1 </div>
+    <div class="box-100 kbr-flex-item-order-2 kbr-center-center"> 2 </div>
+    <div class="box-100 kbr-center-center"> 3 </div>
+</div>
+
+<h2>kbr-container+kbr-space-around</h2>
+
+<div class="container-purple kbr-container kbr-space-around" >
+    <div class="box-100 kbr-center-center "> 1 </div>
+    <div class="box-100 kbr-flex-item-order-2 kbr-center-center"> 2 </div>
+    <div class="box-100 kbr-center-center"> 3 </div>
 </div>
 
 

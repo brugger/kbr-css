@@ -59,7 +59,7 @@
   flex-wrap: nowrap;
 }
 
-.kbr-flex-row-wrap {
+.kbr-row-wrap {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -79,9 +79,27 @@
 }
 
 .kbr-center-vertically {
+
   display: flex;
   align-items: center;
 }
+
+.kbr-align-stretch {
+  align-items: stretch;
+}
+
+.kbr-align-center {
+  align-items: center;
+}
+
+.kbr-align-start {
+  align-items: flex-start;
+}
+
+.kbr-align-end {
+  align-items: flex-end;
+}
+
 
 .kbr-center-horisontally {
   display: flex;
@@ -90,16 +108,35 @@
 
 
 
+.kbr-left {
+  justify-content: flex-start;
+}
+
 .kbr-right {
   justify-content: flex-end;
 }
+
+.kbr-space-between {
+  justify-content: space-between;
+
+}
+
+.kbr-space-around {
+  justify-content: space-around;
+}
+
+.kbr-space-evenly {
+  justify-content: space-evenly;
+}
+
+
 
 .kbr-row-highlight:hover {
   background: #efefef;
 }
 
 
-.flexExpand {
+.kbr-flex-expand {
   flex: 1 1 auto;
 }
 
